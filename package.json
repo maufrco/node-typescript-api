@@ -1,0 +1,21 @@
+{
+  "name": "surf-api-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maufrco/node-typescript-api.git",
+  "author": "Mauricio de Oliveira <maufrco@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit  1"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.11.2",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
